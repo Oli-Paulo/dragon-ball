@@ -1,0 +1,77 @@
+body {
+  background-color: #ff812e;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+header .img-logo {
+  width: 300px;
+  height: 150px;
+}
+header ul {
+  display: flex;
+  align-items: center;
+}
+header ul li {
+  margin-right: 30px;
+}
+/* header .imagem-tema {
+  width: 25px;
+  transition: a.2s ease-in-out;
+}
+header .imagem-tema:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+} */
+li .personagens,
+li .sagas {
+  color: black;
+  transition: all 0.3s;
+  background-color: #ffa66b;
+  padding: 8px;
+  border-radius: 20px;
+}
+li .personagens:hover,
+li .sagas:hover{
+  font-size: 20px;
+}
+main .temporadas {
+  background-color: #ffa66b;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
+main a .nome-temporada {
+  color: black;
+  font-size: 40px;
+  padding: 20px;
+  transition: all 0.3s;
+}
+.nome-temporada:hover {
+  font-size: 50px;
+}
+main .imagem-temporada,
+.imagem-temporada-dois {
+  width: 400px;
+  height: 300px;
+  border-radius: 10px;
+  float: left;
+  margin-right: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 25px;
+}
+.imagem-temporada-dois {
+  height: 400px;
+}
+main .detalhes-da-obra {
+  font-size: 20px;
+  text-align: justify;
+}
