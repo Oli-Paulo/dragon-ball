@@ -34,6 +34,7 @@ li .sagas {
   background-color: #ffa66b;
   padding: 8px;
   border-radius: 20px;
+  border: 1px solid;
 }
 li .personagens:hover,
 li .sagas:hover{
@@ -46,6 +47,7 @@ main .temporadas {
   border-radius: 10px;
   display: flex;
   flex-direction: column;
+  border: 2px solid;
 }
 main a .nome-temporada {
   color: black;
@@ -67,6 +69,9 @@ main .imagem-temporada,
   justify-content: center;
   align-items: center;
   margin-right: 25px;
+  max-width: 100%;
+  height: auto;
+  border: 1px solid;
 }
 .imagem-temporada-dois {
   height: 400px;
