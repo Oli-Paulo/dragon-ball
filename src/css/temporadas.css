@@ -45,6 +45,7 @@ li .sagas:hover {
   margin: 20px;
   border: 2px solid;
   border-radius: 10px;
+  max-width: 100%;
 }
 main .titulo {
   text-align: center;
